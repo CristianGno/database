@@ -217,7 +217,7 @@ class Connection implements ConnectionInterface
      */
     protected function getDefaultSchemaGrammar()
     {
-        //
+        return $this->schemaGrammar;
     }
 
     /**
